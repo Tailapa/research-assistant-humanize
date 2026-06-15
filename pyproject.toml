@@ -1,0 +1,19 @@
+[project]
+name = "research-assistant-humanize"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=1.14.7",
+    "crewai-tools>=1.14.7",
+    "ipykernel>=7.3.0",
+    "ipython>=9.14.1",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.2.5",
+    "numpy>=2.4.6",
+    "openai>=2.41.1",
+    "pandas>=3.0.3",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.2",
+]
